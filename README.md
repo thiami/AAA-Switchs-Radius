@@ -105,7 +105,4 @@ Permet :
 * Gestion des rôles via LDAP
 * Traçabilité complète
 
-````
 
-
-```
