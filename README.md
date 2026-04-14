@@ -46,11 +46,11 @@ line vty 0 15
 ### Exemple de règles FreeRADIUS (`users`)
 
 ```bash
-DEFAULT Huntgroup-Name == "switch-admin", Ldap-Group == "netadmin"
+DEFAULT Huntgroup-Name == "switch-admin", Ldap-Group == "****"
     Service-Type = NAS-Prompt-User,
     Cisco-AVPair += "shell:priv-lvl=15"
 
-DEFAULT Huntgroup-Name == "switch-admin", Ldap-Group == "netops"
+DEFAULT Huntgroup-Name == "switch-admin", Ldap-Group == "****"
     Cisco-AVPair += "shell:priv-lvl=10"
 ```
 
